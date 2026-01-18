@@ -23,7 +23,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       </div>
       <div className="p-6 space-y-4">
         <div className="flex justify-between items-start">
-          <h3 className="text-sm font-black uppercase tracking-tighter text-gray-900 group-hover:text-orange-600 transition-colors">
+          <h3 className="text-sm font-black uppercase tracking-tighter text-gray-900 group-hover:text-red-600 transition-colors">
             {product.name}
           </h3>
           <span className="text-xs font-bold text-gray-400">
@@ -40,7 +40,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           ))}
         </div>
 
-        <button className="w-full bg-white hover:bg-orange-600 border border-gray-100 hover:border-orange-600 text-gray-900 hover:text-white px-4 py-3 text-[10px] font-black uppercase tracking-[0.2em] transition-all duration-300">
+        <button className="w-full bg-white hover:bg-red-600 border border-gray-100 hover:border-red-600 text-gray-900 hover:text-white px-4 py-3 text-[10px] font-black uppercase tracking-[0.2em] transition-all duration-300">
           Inquire Now
         </button>
       </div>

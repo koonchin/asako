@@ -8,7 +8,7 @@ import AgriAdvisor from './components/AgriAdvisor';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-white selection:bg-orange-100 selection:text-orange-900">
+    <div className="min-h-screen bg-white selection:bg-red-100 selection:text-red-900">
       <Navbar />
       <main>
         <Hero />
@@ -21,17 +21,17 @@ const App: React.FC = () => {
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-24">
               <div className="space-y-6">
-                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-orange-600 block">Durability</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-red-600 block">Durability</span>
                 <h3 className="text-3xl font-black uppercase tracking-tighter leading-tight">High-Stress <br/>Endurance</h3>
                 <p className="text-gray-400 text-sm font-light leading-loose">Built to withstand the toughest climates and terrains, ensuring your harvest is never compromised. Engineering that lasts generations.</p>
               </div>
               <div className="space-y-6">
-                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-orange-600 block">Precision</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-red-600 block">Precision</span>
                 <h3 className="text-3xl font-black uppercase tracking-tighter leading-tight">Smart GPS <br/>Systems</h3>
                 <p className="text-gray-400 text-sm font-light leading-loose">Advanced satellite guidance for sub-centimeter accuracy in planting and fertilization. Minimize waste, maximize yield.</p>
               </div>
               <div className="space-y-6">
-                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-orange-600 block">Service</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-red-600 block">Service</span>
                 <h3 className="text-3xl font-black uppercase tracking-tighter leading-tight">24/7 Field <br/>Support</h3>
                 <p className="text-gray-400 text-sm font-light leading-loose">Our engineers are on standby nationwide to ensure zero downtime for your machinery. Reliability is our core promise.</p>
               </div>
@@ -44,25 +44,25 @@ const App: React.FC = () => {
         {/* Brand Strip */}
         <section className="py-32 px-6 border-t border-gray-100 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 transition-all duration-1000 bg-white">
            <div className="max-w-7xl mx-auto flex flex-wrap justify-center md:justify-between items-center gap-12 text-3xl font-black tracking-tighter text-gray-900 uppercase">
-             <span className="hover:text-orange-600 cursor-default transition-colors">Kubota</span>
-             <span className="hover:text-orange-600 cursor-default transition-colors">Yanmar</span>
-             <span className="hover:text-orange-600 cursor-default transition-colors">Iseki</span>
-             <span className="hover:text-orange-600 cursor-default transition-colors">Mitsubishi</span>
-             <span className="hover:text-orange-600 cursor-default transition-colors">Shibaura</span>
+             <span className="hover:text-red-600 cursor-default transition-colors">Kubota</span>
+             <span className="hover:text-red-600 cursor-default transition-colors">Yanmar</span>
+             <span className="hover:text-red-600 cursor-default transition-colors">Iseki</span>
+             <span className="hover:text-red-600 cursor-default transition-colors">Mitsubishi</span>
+             <span className="hover:text-red-600 cursor-default transition-colors">Shibaura</span>
            </div>
         </section>
 
         {/* Call to Action */}
-        <section id="contact" className="py-32 px-6 bg-orange-600 text-white relative overflow-hidden group">
+        <section id="contact" className="py-32 px-6 bg-red-600 text-white relative overflow-hidden group">
            <div className="max-w-4xl mx-auto text-center space-y-12 relative z-10">
               <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">
                 Ready to upgrade your field's performance?
               </h2>
-              <p className="text-orange-100 text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed">
+              <p className="text-red-100 text-lg md:text-xl font-light max-w-2xl mx-auto leading-relaxed">
                 Consult with our agricultural experts to find the perfect machinery configuration for your specific land requirements.
               </p>
               <div className="pt-6">
-                <button className="bg-white text-orange-600 px-16 py-6 text-sm font-black uppercase tracking-[0.4em] hover:bg-gray-100 transition-all shadow-2xl shadow-black/10 active:scale-95">
+                <button className="bg-white text-red-600 px-16 py-6 text-sm font-black uppercase tracking-[0.4em] hover:bg-gray-100 transition-all shadow-2xl shadow-black/10 active:scale-95">
                   Book a Consultation
                 </button>
               </div>

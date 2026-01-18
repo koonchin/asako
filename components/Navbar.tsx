@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
             <span className="text-white font-black text-xs">NA</span>
           </div>
           <span className="text-lg font-black tracking-tighter uppercase text-gray-900">
-            Asako<span className="text-orange-600">Agri</span>
+            Asako<span className="text-red-600">Agri</span>
           </span>
         </div>
 
@@ -24,12 +24,12 @@ const Navbar: React.FC = () => {
             <a
               key={link.label}
               href={link.href}
-              className="text-xs font-bold uppercase tracking-widest text-gray-500 hover:text-orange-600 transition-colors"
+              className="text-xs font-bold uppercase tracking-widest text-gray-500 hover:text-red-600 transition-colors"
             >
               {link.label}
             </a>
           ))}
-          <button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2.5 text-xs font-bold uppercase tracking-widest transition-all">
+          <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-2.5 text-xs font-bold uppercase tracking-widest transition-all">
             Inquire
           </button>
         </div>
@@ -66,12 +66,12 @@ const Navbar: React.FC = () => {
               key={link.label}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-orange-600"
+              className="text-sm font-bold uppercase tracking-widest text-gray-600 hover:text-red-600"
             >
               {link.label}
             </a>
           ))}
-          <button className="bg-orange-600 text-white px-6 py-3 text-xs font-bold uppercase tracking-widest">
+          <button className="bg-red-600 text-white px-6 py-3 text-xs font-bold uppercase tracking-widest">
             Request Quote
           </button>
         </div>

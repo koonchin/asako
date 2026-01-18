@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
                 <span className="text-white font-black text-xs">NA</span>
               </div>
               <span className="text-lg font-black tracking-tighter uppercase text-gray-900">
-                Asako<span className="text-orange-600">Agri</span>
+                Asako<span className="text-red-600">Agri</span>
               </span>
             </div>
             <p className="text-xs text-gray-400 font-medium uppercase tracking-widest leading-loose">
@@ -25,20 +25,20 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">Inventory</h4>
             <ul className="space-y-4 text-[10px] font-bold uppercase tracking-widest text-gray-400">
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Tractors</a></li>
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Harvesters</a></li>
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Rice Planters</a></li>
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Maintenance</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Tractors</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Harvesters</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Rice Planters</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Maintenance</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">Support</h4>
             <ul className="space-y-4 text-[10px] font-bold uppercase tracking-widest text-gray-400">
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Field Service</a></li>
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Spare Parts</a></li>
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Financing</a></li>
-              <li><a href="#" className="hover:text-orange-600 transition-colors">Warranty</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Field Service</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Spare Parts</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Financing</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">Warranty</a></li>
             </ul>
           </div>
 
@@ -49,9 +49,9 @@ const Footer: React.FC = () => {
               <input
                 type="email"
                 placeholder="EMAIL ADDRESS"
-                className="flex-1 bg-gray-50 border border-gray-100 px-4 py-3 text-[10px] focus:outline-none focus:border-orange-600 transition-colors"
+                className="flex-1 bg-gray-50 border border-gray-100 px-4 py-3 text-[10px] focus:outline-none focus:border-red-600 transition-colors"
               />
-              <button className="bg-orange-600 text-white px-4 py-3 text-[10px] font-black uppercase tracking-widest">
+              <button className="bg-red-600 text-white px-4 py-3 text-[10px] font-black uppercase tracking-widest">
                 Join
               </button>
             </div>

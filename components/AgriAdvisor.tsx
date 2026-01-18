@@ -53,7 +53,7 @@ const AgriAdvisor: React.FC = () => {
           {/* Header */}
           <div className="bg-gray-900 text-white p-4 flex justify-between items-center">
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-orange-600 animate-pulse"></div>
+              <div className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></div>
               <span className="text-[10px] font-black uppercase tracking-[0.2em]">Agri-Advisor AI</span>
             </div>
             <button onClick={() => setIsOpen(false)} className="text-gray-400 hover:text-white">
@@ -67,7 +67,7 @@ const AgriAdvisor: React.FC = () => {
               <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                 <div className={`max-w-[85%] p-4 text-xs leading-relaxed ${
                   m.role === 'user' 
-                    ? 'bg-orange-600 text-white font-medium' 
+                    ? 'bg-red-600 text-white font-medium' 
                     : 'bg-white border border-gray-100 text-gray-600 shadow-sm'
                 }`}>
                   {m.text}
@@ -96,12 +96,12 @@ const AgriAdvisor: React.FC = () => {
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}
                 placeholder="Ask about machinery..."
-                className="flex-1 text-xs border border-gray-100 bg-gray-50 px-4 py-3 focus:outline-none focus:border-orange-600 transition-colors uppercase tracking-widest"
+                className="flex-1 text-xs border border-gray-100 bg-gray-50 px-4 py-3 focus:outline-none focus:border-red-600 transition-colors uppercase tracking-widest"
               />
               <button 
                 onClick={handleSendMessage}
                 disabled={isLoading}
-                className="bg-gray-900 text-white p-3 hover:bg-orange-600 transition-colors disabled:opacity-50"
+                className="bg-gray-900 text-white p-3 hover:bg-red-600 transition-colors disabled:opacity-50"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
               </button>
@@ -113,7 +113,7 @@ const AgriAdvisor: React.FC = () => {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-14 h-14 bg-orange-600 text-white shadow-xl shadow-orange-600/20 flex items-center justify-center hover:scale-110 transition-transform active:scale-95"
+        className="w-14 h-14 bg-red-600 text-white shadow-xl shadow-red-600/20 flex items-center justify-center hover:scale-110 transition-transform active:scale-95"
       >
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />

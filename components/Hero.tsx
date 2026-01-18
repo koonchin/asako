@@ -6,9 +6,9 @@ const Hero: React.FC = () => {
     <section className="pt-32 pb-20 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 space-y-8 animate-in fade-in slide-in-from-left-4 duration-1000">
-          <div className="inline-flex items-center gap-2 px-3 py-1 border border-orange-100 bg-orange-50/30 rounded-full">
-            <span className="w-1.5 h-1.5 rounded-full bg-orange-600 animate-pulse"></span>
-            <span className="text-[10px] font-black uppercase tracking-widest text-orange-600">Industrial Standard 2024</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 border border-red-100 bg-red-50/30 rounded-full">
+            <span className="w-1.5 h-1.5 rounded-full bg-red-600 animate-pulse"></span>
+            <span className="text-[10px] font-black uppercase tracking-widest text-red-600">Industrial Standard 2024</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-black text-gray-900 leading-[1.1] tracking-tighter">
             Precision Field <br />
@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             Bringing the heritage of Japanese craftsmanship to the modern agricultural sector. Efficient, durable, and technologically superior.
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-orange-600 hover:bg-orange-700 text-white px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] transition-all shadow-xl shadow-orange-600/10">
+            <button className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] transition-all shadow-xl shadow-red-600/10">
               View Catalog
             </button>
             <button className="border border-gray-200 hover:bg-gray-50 text-gray-900 px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] transition-all">
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
              />
           </div>
           {/* Decorative Elements */}
-          <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-orange-600/5 -z-10 blur-3xl"></div>
+          <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-red-600/5 -z-10 blur-3xl"></div>
           <div className="absolute -top-6 -left-6 w-24 h-24 bg-gray-900/5 -z-10 blur-2xl"></div>
         </div>
       </div>

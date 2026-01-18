@@ -9,7 +9,7 @@ const ProductGrid: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div className="space-y-4">
-            <h2 className="text-xs font-black uppercase tracking-[0.3em] text-orange-600">Certified Inventory</h2>
+            <h2 className="text-xs font-black uppercase tracking-[0.3em] text-red-600">Certified Inventory</h2>
             <p className="text-3xl md:text-4xl font-black text-gray-900 tracking-tighter uppercase">Available Machinery</p>
           </div>
           <div className="flex gap-4">

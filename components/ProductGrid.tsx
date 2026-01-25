@@ -35,11 +35,11 @@ const ProductGrid: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-20 text-center">
+        {/* <div className="mt-20 text-center">
           <button className="bg-gray-900 hover:bg-gray-800 text-white px-12 py-5 text-xs font-bold uppercase tracking-[0.3em] transition-all">
             {t('common.load_more')}
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

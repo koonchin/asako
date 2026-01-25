@@ -56,9 +56,9 @@ const Navbar: React.FC = () => {
               <span className="mr-1">🌐</span> {i18n.language.toUpperCase()}
             </button>
             <div className="absolute right-0 mt-2 w-32 bg-white border border-gray-100 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-              <button onClick={() => changeLanguage('th')} className="block w-full text-left px-4 py-3 text-xs font-bold hover:bg-gray-50 hover:text-red-600">🇹🇭 Thai</button>
+              <button onClick={() => changeLanguage('th')} className="block w-full text-left px-4 py-3 text-xs font-bold hover:bg-gray-50 hover:text-red-600">🇹🇭 ไทย</button>
               <button onClick={() => changeLanguage('en')} className="block w-full text-left px-4 py-3 text-xs font-bold hover:bg-gray-50 hover:text-red-600">🇬🇧 English</button>
-              <button onClick={() => changeLanguage('cn')} className="block w-full text-left px-4 py-3 text-xs font-bold hover:bg-gray-50 hover:text-red-600">🇨🇳 Chinese</button>
+              <button onClick={() => changeLanguage('cn')} className="block w-full text-left px-4 py-3 text-xs font-bold hover:bg-gray-50 hover:text-red-600">🇨🇳 中文</button>
             </div>
           </div>
         </div>

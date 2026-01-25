@@ -1,7 +1,10 @@
-
+// components/Footer.tsx
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // Import เพิ่ม
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation(); // เรียกใช้ hook
+
   return (
     <footer className="bg-white border-t border-gray-100 pt-24 pb-12 px-6">
       <div className="max-w-7xl mx-auto">
@@ -16,43 +19,43 @@ const Footer: React.FC = () => {
               </span>
             </div>
             <p className="text-xs text-gray-400 font-medium uppercase tracking-widest leading-loose">
-              122-8001 Osaka, Kita-ku <br />
-              Innovation Tower 42F <br />
-              Japan
+              {t('footer.address_line1')} <br />
+              {t('footer.address_line2')} <br />
+              {t('footer.address_country')}
             </p>
           </div>
 
           <div>
-            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">Inventory</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">{t('footer.col_inventory')}</h4>
             <ul className="space-y-4 text-[10px] font-bold uppercase tracking-widest text-gray-400">
-              <li><a href="#" className="hover:text-red-600 transition-colors">Tractors</a></li>
-              <li><a href="#" className="hover:text-red-600 transition-colors">Harvesters</a></li>
-              <li><a href="#" className="hover:text-red-600 transition-colors">Rice Planters</a></li>
-              <li><a href="#" className="hover:text-red-600 transition-colors">Maintenance</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.tractors')}</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.harvesters')}</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.rice_planters')}</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.maintenance')}</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">Support</h4>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">{t('footer.col_support')}</h4>
             <ul className="space-y-4 text-[10px] font-bold uppercase tracking-widest text-gray-400">
-              <li><a href="#" className="hover:text-red-600 transition-colors">Field Service</a></li>
-              <li><a href="#" className="hover:text-red-600 transition-colors">Spare Parts</a></li>
-              <li><a href="#" className="hover:text-red-600 transition-colors">Financing</a></li>
-              <li><a href="#" className="hover:text-red-600 transition-colors">Warranty</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.field_service')}</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.spare_parts')}</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.financing')}</a></li>
+              <li><a href="#" className="hover:text-red-600 transition-colors">{t('footer.warranty')}</a></li>
             </ul>
           </div>
 
           <div className="space-y-6">
-            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">Newsletter</h4>
-            <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400">Stay updated on new seasonal arrivals.</p>
+            <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-900 mb-6">{t('footer.col_newsletter')}</h4>
+            <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400">{t('footer.newsletter_desc')}</p>
             <div className="flex gap-2">
               <input
                 type="email"
-                placeholder="EMAIL ADDRESS"
+                placeholder={t('footer.email_placeholder')}
                 className="flex-1 bg-gray-50 border border-gray-100 px-4 py-3 text-[10px] focus:outline-none focus:border-red-600 transition-colors"
               />
               <button className="bg-red-600 text-white px-4 py-3 text-[10px] font-black uppercase tracking-widest">
-                Join
+                {t('footer.btn_join')}
               </button>
             </div>
           </div>
@@ -60,12 +63,12 @@ const Footer: React.FC = () => {
 
         <div className="pt-12 border-t border-gray-50 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400">
-            © 2024 Asako AGRI-TECH CORP. ALL RIGHTS RESERVED.
+            {t('footer.rights')}
           </p>
           <div className="flex gap-8 text-[10px] font-bold uppercase tracking-widest text-gray-400">
-            <a href="#" className="hover:text-gray-900">Privacy</a>
-            <a href="#" className="hover:text-gray-900">Terms</a>
-            <a href="#" className="hover:text-gray-900">Ethics</a>
+            <a href="#" className="hover:text-gray-900">{t('footer.link_privacy')}</a>
+            <a href="#" className="hover:text-gray-900">{t('footer.link_terms')}</a>
+            <a href="#" className="hover:text-gray-900">{t('footer.link_ethics')}</a>
           </div>
         </div>
       </div>

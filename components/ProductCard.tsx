@@ -29,7 +29,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
         />
         <div className="absolute top-4 left-4">
-          <span className="text-[10px] font-black uppercase tracking-widest px-2 py-1 bg-white/90 backdrop-blur-sm border border-gray-100 text-gray-500">
+          <span className="text-[0.7rem] font-black uppercase tracking-widest px-2 py-1 bg-white/90 backdrop-blur-sm border border-gray-100 text-gray-500">
             {/* 4. แก้ตรงนี้: Category */}
             {getVal(product.category)}
           </span>

@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-3 px-4 py-2 border border-red-200 bg-red-50 rounded-sm">
             <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
-            <span className="text-xs font-bold uppercase tracking-widest text-red-700">
+            <span className="text-xs uppercase tracking-widest text-red-700">
               {t('hero.badge')}
             </span>
           </div>
@@ -36,10 +36,10 @@ const Hero: React.FC = () => {
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-gray-900 hover:bg-black text-white px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">
+            <button className="bg-gray-900 hover:bg-black text-white px-10 py-4 text-s font-bold uppercase tracking-[0.2em] transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">
               {t('hero.view_catalog')}
             </button>
-            <button className="border border-gray-300 hover:border-red-600 hover:text-red-600 text-gray-900 px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] transition-all bg-white">
+            <button className="border border-gray-300 hover:border-red-600 hover:text-red-600 text-gray-900 px-10 py-4 text-s font-bold uppercase tracking-[0.2em] transition-all bg-white">
               {t('hero.learn_more')}
             </button>
           </div>

@@ -6,41 +6,60 @@ const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="py-24 px-6 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 items-center">
-        <div className="flex-1 space-y-8">
-          <span className="text-[10px] font-black uppercase tracking-[0.3em] text-red-600 block">
-            {t('about.badge')}
-          </span>
-          <h2 className="text-4xl md:text-6xl font-black text-gray-900 tracking-tighter leading-[1.1] whitespace-pre-line">
-            {t('about.title')}
-          </h2>
-          <div className="space-y-6 text-gray-500 font-light leading-relaxed max-w-lg">
-            <p>{t('about.desc1')}</p>
-            <p>{t('about.desc2')}</p>
-          </div>
-          <div className="flex gap-12 pt-8 border-t border-gray-100">
-            <div>
-              <span className="block text-4xl font-black text-gray-900">50+</span>
-              <span className="text-[10px] uppercase tracking-widest text-gray-400">{t('about.stat_years')}</span>
-            </div>
-            <div>
-              <span className="block text-4xl font-black text-gray-900">12k+</span>
-              <span className="text-[10px] uppercase tracking-widest text-gray-400">{t('about.stat_clients')}</span>
-            </div>
-          </div>
-        </div>
+    <section id="about" className="py-32 px-6 bg-white overflow-hidden border-t border-gray-100">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-20 items-center">
         
-        <div className="flex-1 relative w-full h-[500px]">
-           <div className="absolute inset-0 bg-gray-200">
-             {/* ใส่รูปเจ้าของหรือโรงงานที่นี่ */}
-                <img 
-                src="/images/about-us.jpg" 
-                alt="Factory" 
-                className="w-full h-full"
-                />
+        {/* ✅ Image Section (Person) */}
+        <div className="flex-1 relative w-full h-[600px] group">
+           <div className="absolute top-4 left-4 w-full h-full border-2 border-gray-100 -z-10 group-hover:top-6 group-hover:left-6 transition-all duration-500"></div>
+           <div className="w-full h-full overflow-hidden bg-gray-100">
+             {/* ใส่รูปคุณสุรินทร์ตรงนี้ */}
+             <img 
+               src="/images/person.jpg" 
+               alt="Surin Songthanin" 
+               className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+             />
            </div>
-           {/* Decorative Box */}
+           {/* Name Card Overlay */}
+           <div className="absolute bottom-0 right-0 bg-red-600 text-white p-6 md:p-8 max-w-sm">
+              <h3 className="text-2xl font-bold font-serif italic mb-1">"{t('about.slogan')}"</h3>
+           </div>
+        </div>
+
+        {/* Text Content */}
+        <div className="flex-1 space-y-10">
+          <div className="space-y-2">
+            <span className="text-xs font-black uppercase tracking-[0.3em] text-red-600 flex items-center gap-2">
+              <span className="w-8 h-[1px] bg-red-600"></span>
+              {t('about.badge')}
+            </span>
+            <h2 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tighter">
+              {t('about.title')}
+            </h2>
+            <p className="text-lg font-medium text-gray-900 uppercase tracking-widest">
+              {t('about.role')}
+            </p>
+          </div>
+
+          <div className="space-y-6 text-gray-600 font-light leading-relaxed text-base md:text-lg border-l-2 border-gray-200 pl-6">
+            <p className="font-medium text-gray-800">
+              {t('about.intro')}
+            </p>
+            <p>
+              {t('about.desc')}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-8 pt-6">
+            <div className="space-y-2">
+              <span className="block text-5xl font-black text-gray-200">30+</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-gray-900">{t('about.stat_years')}</span>
+            </div>
+            <div className="space-y-2">
+              <span className="block text-5xl font-black text-gray-200">100%</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-gray-900">{t('about.stat_clients')} (One Stop Service)</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>

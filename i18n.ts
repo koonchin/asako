@@ -103,7 +103,16 @@ const resources = {
       common: {
         inquire: "Inquire Now",
         load_more: "Load More Units"
-      }
+      },
+      contact: {
+        title: "Contact Channels",
+        desc: "Reach out to us via any of these platforms."
+      },
+      dealer: {
+        title: "Become Our Dealer",
+        subtitle: "Join the ASAKO THAILAND network and grow together.",
+        button: "Contact Us"
+      },
     }
   },
 
@@ -206,7 +215,16 @@ const resources = {
       common: {
         inquire: "สอบถามทันที",
         load_more: "ดูสินค้าเพิ่มเติม"
-      }
+      },
+      contact: {
+        title: "ช่องทางการติดต่อ",
+        desc: "ติดต่อเราได้ผ่านช่องทางต่างๆ ดังนี้"
+      },
+      dealer: {
+        title: "สมัครตัวแทนจำหน่าย",
+        subtitle: "ร่วมเป็นส่วนหนึ่งของเครือข่าย ASAKO THAILAND และเติบโตไปด้วยกัน",
+        button: "ติดต่อเรา"
+      },
     }
   },
 
@@ -309,7 +327,16 @@ const resources = {
       common: {
         inquire: "立即咨询",
         load_more: "加载更多"
-      }
+      },
+      contact: {
+        title: "联系方式",
+        desc: "通过以下任何平台与我们联系。"
+      },
+      dealer: {
+        title: "成为我们的经销商",
+        subtitle: "加入 ASAKO THAILAND 网络，共同成长。",
+        button: "联系我们"
+      },
     }
   }
 };

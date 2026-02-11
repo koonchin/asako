@@ -16,7 +16,6 @@ const Navbar: React.FC = () => {
   const navLinks = [
     { label: t('nav.inventory'), path: '/inventory' },
     { label: t('nav.services'), path: '/services' },
-    { label: t('spare_parts.badge'), path: '/spare-parts' },
     { label: t('nav.about'), path: '/about' },
   ];
 

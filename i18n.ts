@@ -113,6 +113,30 @@ const resources = {
         subtitle: "Join the ASAKO THAILAND network and grow together.",
         button: "Contact Us"
       },
+      highlights: {
+        title: "THAI ASAKO",
+        subtitle: "THAI ASAKO is a manufacturer, importer-exporter, and distributor of high-quality, durable, and cost-effective tool products.",
+        item1_t: "Experience", item1_d: "Over 35 years of expertise",
+        item2_t: "Complete Products", item2_d: "Wide variety of items",
+        item3_t: "Quality Goods", item3_d: "Affordable prices",
+        item4_t: "Full Spare Parts", item4_d: "Ready for service",
+        item5_t: "Technician Team", item5_d: "Specialized experts",
+        item6_t: "Warranty", item6_d: "On every product",
+        item7_t: "Fast Delivery", item7_d: "Quick and ready to use",
+        item8_t: "Certificates", item8_d: "Quality standards"
+      },
+      dealer_cta: {
+        subtitle: "Recruiting Dealers",
+        button: "Apply Now"
+      },
+      promotion: {
+        title: "Promotion",
+        subtitle: "Special Offers",
+        view_details: "View Product"
+      },
+      download: {
+        title: "Download Catalog Here!",
+      }
     }
   },
 
@@ -225,6 +249,30 @@ const resources = {
         subtitle: "ร่วมเป็นส่วนหนึ่งของเครือข่าย ASAKO THAILAND และเติบโตไปด้วยกัน",
         button: "ติดต่อเรา"
       },
+      highlights: {
+        title: "THAI ASAKO",
+        subtitle: "THAI ASAKO คือผู้ผลิต ผู้นำเข้า-ส่งออก และจัดจำหน่ายสินค้าเครื่องมือที่มีคุณภาพ แข็งแรง ทนทาน และคุ้มค่า",
+        item1_t: "ประสบการณ์", item1_d: "เชี่ยวชาญมากกว่า 35 ปี",
+        item2_t: "สินค้าครบครัน", item2_d: "หลากหลายรายการ",
+        item3_t: "สินค้าดี มีคุณภาพ", item3_d: "ราคาจับต้องได้",
+        item4_t: "อะไหล่ครบครัน", item4_d: "พร้อมให้บริการ",
+        item5_t: "ทีมงานช่าง", item5_d: "ผู้เชี่ยวชาญเฉพาะทาง",
+        item6_t: "รับประกัน", item6_d: "สินค้าทุกรายการ",
+        item7_t: "บริการจัดส่งรวดเร็ว", item7_d: "ฉับไวทันใช้",
+        item8_t: "มีใบรับรอง", item8_d: "มาตรฐานคุณภาพ"
+      },
+      dealer_cta: {
+        subtitle: "เปิดรับตัวแทนจำหน่าย",
+        button: "สมัครตัวแทนจำหน่าย"
+      },
+      promotion: {
+        title: "สินค้าโปรโมชั่น",
+        subtitle: "Promotion",
+        view_details: "ดูสินค้า"
+      },
+      download: {
+        title: "ดาวน์โหลดแคตตาล็อกได้แล้ว ที่นี่!",
+      }
     }
   },
 
@@ -337,6 +385,29 @@ const resources = {
         subtitle: "加入 ASAKO THAILAND 网络，共同成长。",
         button: "联系我们"
       },
+      highlights: {
+        title: "THAI ASAKO",
+        subtitle: "THAI ASAKO 是一家高品质、耐用且具有成本效益的工具产品制造商、进出口商和分销商。",
+        item1_t: "经验", item1_d: "超过 35 年的专业知识",
+        item2_t: "产品齐全", item2_d: "种类繁多",
+        item3_t: "优质优价", item3_d: "价格合理",
+        item4_t: "零配件齐全", item4_d: "随时为您服务",
+        item5_t: "技术团队", item5_d: "资深专家",
+        item6_t: "质量保证", item6_d: "每件产品均有保修",
+        item7_t: "快速送货", item7_d: "快捷方便",
+        item8_t: "认证证书", item8_d: "质量标准"
+      },
+      dealer_cta: {
+        subtitle: "招募代理商",
+        button: "立即申请"
+      },
+      promotion: {
+        title: "促销产品",
+        subtitle: "特别优惠",
+      },
+      download: {
+        title: "在此下载产品目录！",
+      }
     }
   }
 };

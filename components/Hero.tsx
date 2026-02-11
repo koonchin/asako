@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
             <button className="bg-gray-900 hover:bg-black text-white px-10 py-4 text-s font-bold uppercase tracking-[0.2em] transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">
               {t('hero.view_catalog')}
             </button>
-            <button className="border border-gray-300 hover:border-red-600 hover:text-red-600 text-gray-900 px-10 py-4 text-s font-bold uppercase tracking-[0.2em] transition-all bg-white">
+            <button className="border border-gray-300 hover:border-red-600 hover:text-red-600 text-gray-900 px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] transition-all bg-white">
               {t('hero.learn_more')}
             </button>
           </div>

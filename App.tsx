@@ -8,7 +8,6 @@ import About from './components/About';
 import Services from './components/Services';
 import SpareParts from './components/SpareParts';
 import Footer from './components/Footer';
-import AgriAdvisor from './components/AgriAdvisor';
 import ContactPopup from './components/ContactPopup'; // 🔴 Import
 
 const ScrollToTop = () => {
@@ -31,7 +30,6 @@ const App: React.FC = () => {
             <Route path="/inventory" element={<ProductGrid />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
-            <Route path="/spare-parts" element={<SpareParts />} />
             <Route path="/contact" element={<Home />} />
           </Routes>
         </div>

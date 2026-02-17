@@ -1,6 +1,38 @@
 // constants.tsx
 import { Product } from './types';
 
+// ============================================================================
+// 🔧 ส่วนตั้งค่ารูปภาพและแบนเนอร์ (แก้ไขได้ที่นี่)
+// ============================================================================
+export const SITE_CONFIG = {
+  hero: {
+    image: "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&q=80&w=1000",
+  },
+  about: {
+    founderImage: "/images/person.jpg",
+  },
+  home: {
+    promotionMain: "/images/demo.jpg",
+    catalogMockup1: "/images/7/1.jpg",
+    catalogMockup2: "/images/8/1.jpg",
+    dealerBackground: "/images/image_1e7a1c.jpg",
+    logo: "/images/logo.jpg"
+  }
+};
+
+// ============================================================================
+// 📞 ข้อมูลการติดต่อ (แสดงผลในหน้า About และ Services)
+// ============================================================================
+export const CONTACT_INFO = [
+  { id: 'facebook', label: 'Facebook Page', link: 'https://facebook.com/asako-agri', color: '#1877F2' },
+  { id: 'line', label: 'Line Official', link: 'https://line.me/ti/p/@asako', color: '#00C300' },
+  { id: 'tel', label: '02-123-4567', link: 'tel:+6621234567', color: '#16a34a' },
+  { id: 'map', label: 'Google Maps', link: 'https://goo.gl/maps/xyz', color: '#ef4444' }
+];
+
+// ============================================================================
+// 🛒 ข้อมูลสินค้า (PRODUCTS)
+// ============================================================================
 export const PRODUCTS: Product[] = [
   {
     id: '1',
